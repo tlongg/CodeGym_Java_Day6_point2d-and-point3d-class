@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Point3D extends Point2D {
     float z;
 
@@ -29,10 +31,6 @@ public class Point3D extends Point2D {
 
     @Override
     public String toString() {
-        return "Point3D{" +
-                "z=" + z +
-                ", x=" + super.getX() +
-                ", y=" + super.getY() +
-                '}';
+        return Arrays.toString(getXYZ());
     }
 }

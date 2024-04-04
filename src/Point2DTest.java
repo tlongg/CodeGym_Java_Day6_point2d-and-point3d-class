@@ -5,9 +5,5 @@ public class Point2DTest {
 
         point2D = new Point2D(4.5f, 6.5f);
         System.out.println(point2D);
-
-        float[] test = point2D.getXY();
-        System.out.println(test);
-
     }
 }

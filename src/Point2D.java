@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Point2D {
     float x;
     float y;
@@ -37,9 +39,6 @@ public class Point2D {
 
     @Override
     public String toString() {
-        return "Point2D{" +
-                "x=" + x +
-                ", y=" + y +
-                '}';
+        return Arrays.toString(getXY());
     }
 }
